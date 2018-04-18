@@ -168,7 +168,7 @@ printf(" 10 elements you want to enter\n");
  {printf("%d\t",c[i]);
  d1[i]=c[i];
  }
- 13
+
  
  	pthread_create(&t3, NULL, merging,(void*)array_ptr);
  pthread_join( t3,NULL);
